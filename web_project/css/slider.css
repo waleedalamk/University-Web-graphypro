@@ -1,0 +1,27 @@
+.pics {  
+    height:  500px;  
+    width:   970px;  
+} 
+ 
+.pics img {  
+    width:  970px; 
+    height: 500px; 
+    clear: both;
+} 
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+
+.pics {  
+    height:  150px;  
+    width:   600px;  
+    margin-top: -5px;
+} 
+ 
+.pics img {  
+    width:  600px; 
+    height: 150px; 
+} 
+
+
+}
